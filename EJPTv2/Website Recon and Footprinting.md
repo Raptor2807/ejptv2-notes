@@ -1,0 +1,42 @@
+### what are we looking for?
+- IP addresses
+- directories hidden from search engines
+- Names
+- Email addrs
+- Phone numbers
+- Physical addrs
+- Web Technologies being used
+
+### Practical 
+- whatis - command used for knowing what a command does
+- host - DNS lookup utility
+	- whenever we use host command and we get more than one ip we should know from that point that we are dealing with some form of proxy.
+	- Googlepixel@2025
+- robots.txt - best place to start
+	- it is a text file that contains information for search engine crawlers. 
+		- but when search engines do this they could potentially reveal information which u don't want to be public -> this is where robots.txt file plays an imp role
+	- it basically allows you to specify what folders or what files you don't want search engines to index
+		- here when we check robots.txt file for hackersploit.org we can see *disallow* which means search engines aren't allowed to index that directory or file
+	- when we see the directory names like wp-admin or something with wp -> the website uses wordpress
+- sitemap.xml / sitemaps.xml
+	- it is essentially a file that is used to provide search engines with an organized way of indexing the website
+	- we can use this to find if there is a page which is publicly accessible but not indexed or referenced by the frontend of the website
+	- when we are dealing with a wordpress website, always lookout for categories as there could be some categories which are hidden on the frontend
+- ##### Browser plugins (firefox)
+	- *BuiltWith* - it is a website profiler tool. upon looking up a page it returns all the technologies in use on that page that it can find.
+		- it tells us what plugins or what widgets are used on the website
+		- it also reveals all the subdomains linked to the target website
+	- *Wappalyzer* - same as builtwith
+	- *WhatWeb* - it is a pre-packaged tool with kali
+		- it is also a website scanner.
+		- it has two modes 
+			- _Stealthy_ - Makes one HTTP request per target and also follows redirects
+			- _Aggressive_ - if a level 1 plugin is matched, additional requests will be made 
+		- when we use this command if it tells [301-Moved permanently] it means there is a redirection which is happening.
+	- *HTTrack* - it allows you to download recursively all directories, getting HTML, and other files from the server to your computer
+		- we can use this to analyze the source code of a website and checking it locally 
+		- installed in kale go to start and search webhttrack and it will open on local server 
+		- This tool might not work when the website uses proxy
+### 
+- 
+- 

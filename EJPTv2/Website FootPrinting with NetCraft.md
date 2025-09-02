@@ -1,0 +1,4 @@
+- is used to gather info about target domain
+- gives details regarding the registrar, domain, operating system used by the website, etc - essentially collating all of the info manually in the previous steps of info gathering
+- use this URL to access the netcraft site report 
+	- https://sitereport.netcraft.com/

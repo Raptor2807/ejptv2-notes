@@ -1,0 +1,12 @@
+# Obsidian app/state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+.obsidian/workspace
+# Caches/backups
+.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/cache/
+.obsidian/plugins/templater-obsidian/cache/
+.DS_Store
+Thumbs.db
