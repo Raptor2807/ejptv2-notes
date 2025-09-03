@@ -1,0 +1,3 @@
+- the idea here is to check if the owner of the email address found using theHarvester was part of a data breach and his email's password exists in a leaked password database.
+- then we can utilize that password to perform password spray attack - but that comes under active information gathering
+- https://haveibeenpwned.com/

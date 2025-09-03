@@ -3,3 +3,7 @@
 [[Website FootPrinting with NetCraft]]
 [[DNS RECON]]
 [[WAF Detection using WAFW00F]]
+[[sub domain enumeration using Sublist3r]]
+[[Google Dorks]] 
+[[Email harvesting with theHarvester]]
+[[Leaked Password Databases]]
