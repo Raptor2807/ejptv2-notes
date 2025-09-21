@@ -88,3 +88,25 @@ nmap -Pn -sV -p 80 demo.ine.local
 
 This lab demonstrated how to confirm host availability and enumerate
 open ports/services even when ICMP is blocked by firewalls.
+
+```mermaid
+flowchart TD
+    A[Kali Machine] --> B[ICMP Ping<br/>ping -c 5 demo.ine.local]
+    B -->|Blocked| C[Nmap -sn<br/>Host seems down]
+    C --> D[Nmap -sn -PS<br/>Host is up]
+    D --> E[Nmap -Pn<br/>Open ports discovered]
+    E --> F[Nmap -Pn -sV -p 80<br/>HttpFileServer 2.3 detected]
+```
+---
+## Discovered Ports and Services
+
+| Port | State    | Service        | Version/Info                |
+|-----:|---------|---------------|----------------------------|
+| 80   | open    | http          | HttpFileServer httpd 2.3    |
+| 135  | open    | msrpc         | Microsoft RPC               |
+| 139  | open    | netbios-ssn   | NetBIOS Session Service     |
+| 445  | open    | microsoft-ds  | SMB / Windows File Sharing  |
+| 3389 | open    | ms-wbt-server | RDP (Remote Desktop)        |
+| 49154| open    | unknown       |                            |
+| 49155| open    | unknown       |                            |
+| 443  | filtered| https         | Possibly firewalled         |
