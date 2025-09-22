@@ -1,0 +1,3 @@
+- the objective here is to take all what we have learnt about the target hosts that are online and start to learn about what they're being used for by means of the ports and what services they are running. and in addition to that what OS they're running.
+- This information will be useful while we do threat modelling and check for vulnerabilities
+- 

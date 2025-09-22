@@ -1,8 +1,0 @@
-- Using wireshark we can capture the packets while we do nmap scan
-	- Response to a SYN ping
-		- SYNACK : Open port
-			- in response nmap sends an RSt to terminate the connection
-		- RST : Closed port
-		- NO response : packet might be filtered by firewall and potentially dropped. 
-			- hence, can't say for sure if the port is open or not
-- 
