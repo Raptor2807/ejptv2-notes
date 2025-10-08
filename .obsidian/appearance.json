@@ -1,5 +1,7 @@
 {
-  "textFontFamily": "Courier New",
+  "textFontFamily": "Courier New,Copperplate Gothic",
   "baseFontSize": 18,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": "#db530a",
+  "interfaceFontFamily": "Century Gothic"
 }

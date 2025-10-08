@@ -1,2 +1,0 @@
-- Used to increase or augment the amount of information we can get specifically with regards to service version detection as well as OS detection
-- 
