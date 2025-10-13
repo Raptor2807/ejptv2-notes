@@ -1,4 +1,4 @@
- Task : In this lab environment, you will use Nmap to identify ports used by Bind DNS, TFTP, and SNMP servers. No prior setup is required. Clear instructions are provided for scan and port identification. The target machine will be accessible at **demo.ine.local**.
+  Task : In this lab environment, you will use Nmap to identify ports used by Bind DNS, TFTP, and SNMP servers. No prior setup is required. Clear instructions are provided for scan and port identification. The target machine will be accessible at **demo.ine.local**.
 
 **Objective:** This lab covers the process of performing port scanning and service detection with Nmap.
 

@@ -1,7 +1,0 @@
-[[Footprinting and Scanning]]
-[[Active Info Gathering]]
-[[Networking Fundamentals]]
-[[Network mapping]]
-[[Host Disc with Nmap]]
-[[Port Scanning]]
-[[CTF 1 Assessment Methodologies Footprinting and scanning]]
