@@ -1,0 +1,3 @@
+- nmap -Pn -sV -O 10.4.22.173 -oX windows_server_2012
+- the video was very lame and just provided some basic info about nmap enumeration and output formats which were already covered in previous sections. 
+- we do port scanning and services and OS version detection 
